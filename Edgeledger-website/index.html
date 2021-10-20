@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Edge Ledger</title>
+        <link rel="stylesheet"href="css/style.css">
+        <link rel="stylesheet" media="screen and (max-width:1200px)" href="css/mobile.css">
+        <link rel="stylesheet" media="screen and (min-width:1660px)" href="css/widescreen.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://kit.fontawesome.com/11b2fe9bc4.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+        <!-- MAP  -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin=""/>
+        
+        <!-- Leaflet's CSS -->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+        
+    </head>
+
+    <body>
+        <nav class="navbar">
+
+            <h1 class="icon">
+                <span>
+                <i class="fas fa-book-open 3x"></i>
+                Edge</span>Ledger
+            </h1>
+
+            <ul>
+               <li><a href="#">Home</a></li> 
+               <li><a href="#">What</a></li> 
+               <li><a href="#">Who</a></li> 
+               <li><a href="#">Contact</a></li> 
+            </ul>
+        </nav>
+
+        <div class="showcase">
+
+            <div class="showcase-content">
+                <h1>The Sky Is The Limit</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus debitis praesentium inventore, eum deserunt.
+ 
+                </p>
+                <a class="btn" href="#">Read More</a>
+            </div>
+        </div>
+
+        <!-- WHAT WE DO -->
+        <section class="info">
+            <div class="wid">
+                <h1 class="info-header"><span>What</span> We Do</h1>
+                
+                <div class="info-content">
+                    <div class="item">
+                        <i class="fas fa-university fa-2x"></i>
+                        <div class="info-inner">
+                            <h3>Investment Banking</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum!
+            
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="item">
+                        <i class="fas fa-book-reader fa-2x"></i>
+                        
+                        <div class="info-inner">
+                            <h3>Portfolio Management</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum!
+            
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="fas fa-pencil-alt fa-2x"></i>
+                        <div class="info-inner">
+                            <h3>Tax & Custodial</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum!
+            
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="who-info">
+            
+            <div class="who-img">
+
+            </div>
+
+            <div class="who-content">
+                <h1><span>Who </span>We Are</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora culpa harum voluptas ratione enim consequuntur illo, atque, aut doloribus unde repellendus sit delectus beatae aspernatur placeat corrupti. Ipsa, itaque quas.
+
+                </p>
+
+                <h3>Our Team</h3>
+
+                <p>Mark Smith: CEO</p>
+                <p>Shannon Johnson: CFO</p>
+                <p>John Corbit: Lead Accountant</p>
+                <p>Janet Williams: Investment Manager
+                </p>
+                <p>Kara Jackson: Senior Accountant</p>
+
+
+            </div>
+
+        </section>
+
+        <section class="client">
+            <div class="container">
+                <h1><span>Our</span> Clients</h1>
+                
+                <div class="logo-items">
+                    <div><img src="img/logos/logo1.png"></div>
+                    <div><img src="img/logos/logo2.png"></div>
+                    <div><img src="img/logos/logo3.png"></div>
+                    <div><img src="img/logos/logo4.png"></div>
+                    <div><img src="img/logos/logo5.png"></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="contact-map">
+
+            <div class="form-container">
+                <h1>Contact Us</h1>
+                <p>Please use the form below to contact us</p>
+
+                <form>
+
+                    <div class="form-item">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter Name">
+                    </div>
+
+                    <div class="form-item">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="Enter Email">
+                    </div>
+
+                    <div class="form-item">
+                        <label for="number">Phone Number</label>
+                        <input type="text" id="number" placeholder="Enter Phone Number">
+                    </div>
+
+                    <div class="form-item">
+                        <label for="message">Message</label>
+                        <input type="text" id = "message" placeholder="Enter Message">
+                    </div>
+                    
+                </form>
+                <button class="send-btn" type="submit">Send</button>
+
+            </div>
+
+            <div class="map-container">
+                <div id="mapid"></div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Copyright © 2021, EdgeLedger, All Rights Reserved</p>
+        </footer>
+
+    </body>
+
+
+    <script src="js/main.js"></script>
+
+</html>

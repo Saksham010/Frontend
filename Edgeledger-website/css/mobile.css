@@ -1,0 +1,96 @@
+.info-content{
+    display: block;
+}
+
+
+.item{
+    display: flex;
+    text-align: left;
+    margin: 2.5em;
+    
+}
+
+.item i{
+    align-self: center;
+    margin-right: 1.2rem;
+}
+
+
+.item h3{
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+
+/* Small Phones */
+@media(max-width:700px){
+    .navbar{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        /* position: sticky; */
+        font-size: 1rem;
+    }
+
+    .navbar i{
+        margin-bottom: 3rem;
+    }
+
+
+
+
+    .who-info{
+        flex-direction: column;
+    }
+
+    .who-img{
+        display: none;
+    }
+
+
+
+    .logo-items img{
+        width: 80%;
+    }
+
+    .logo-items div:last-child{
+        display: none;
+    }
+
+
+    .contact-map{
+       display: block;
+    }
+
+    .map-container{
+        height: 400px;
+    }
+
+    .showcase-content h1{
+        font-size: 4.3rem;
+    }
+
+    .showcase-content p{
+        font-size: 1.6rem;
+    }
+}
+
+@media(max-width:360px){
+    .navbar{
+        font-size: 0.7rem;
+
+    }
+
+    .showcase-content h1{
+        font-size: 3rem;
+    }
+    .showcase-content p{
+        font-size: 1.3rem;
+    }
+
+
+    .item p{
+        
+        /* padding: 1rem; */
+    }
+}

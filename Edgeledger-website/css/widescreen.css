@@ -1,0 +1,28 @@
+/* What we do section */
+.wid h1{
+    margin:3rem;
+}
+
+.item{
+    display: flex;
+    text-align: left;
+    margin-right: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+.item i{
+    align-self: center;
+    margin-right: 1rem;
+    
+}
+.item h3{
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+
+/* MAP */
+
+.map-container{
+    flex:2;
+}

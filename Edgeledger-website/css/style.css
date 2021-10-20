@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.navbar{
+    background-color: #333;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    padding: 2rem;
+    position: sticky;
+
+
+}
+.navbar h1{
+    color: white;
+
+}
+span{
+    color:#93cb52;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    /* border: 1px solid green; */
+}
+
+.navbar a:hover{
+
+    background-color:#93cb52 ;
+    border-radius: 9px;
+
+}
+
+
+/* Showcase */
+.showcase{
+    background-image: url("../img/showcase.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.4);
+    
+}
+
+
+.showcase-content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.4);
+
+}
+
+.showcase-content h1{
+    /* border: 1px red solid; */
+    font-size: 6rem;
+    font:bold;
+    padding: 2rem;
+}
+
+.showcase-content p{
+    /* border: 1px blue solid; */
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 1rem;
+}
+.showcase-content a{
+    
+    color:white;
+    text-decoration: none;
+    padding:1rem;
+    padding: 1rem 3rem;
+    background-color: #93cb52;
+    border-radius: 9px;
+}
+
+
+.showcase-content a:hover{
+    background-color:#84b849 ;
+    color: whitesmoke;
+}
+
+
+
+/* What we Do section */
+.info{
+    background-color: #f4f4f4;
+}
+.info .wid{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.info h1{
+    /* border: 1px red solid; */
+    text-align: center;
+    margin: 2rem;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.item i{
+    
+    /* border: 1px red solid; */
+    background-color:#93cb52 ;
+    border-radius: 50%;
+    padding:1.6rem;
+}
+
+.item h3{
+    font-size: 1.17em;
+    font-weight: bold;
+}
+.item p{
+    font-weight: 550;
+    
+}
+.wid {
+    /* border: 1px red solid; */
+    display: flex;
+    flex-direction: column;
+}
+.info-content{
+    display: flex;
+    justify-content: center;
+    /* border: 1px blue solid; */
+    margin-bottom: 3rem;
+}
+ 
+.item{
+    text-align: center;
+}
+
+.info-inner h3{
+    padding:1rem;
+}
+
+
+
+/* Who are we showcase */
+
+.who-info{
+    display: flex;
+}
+
+.who-img{
+    background-image: url("../img/people.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex:1;
+}
+
+.who-content{
+    /* border: 1px red solid; */
+    padding: 3rem;
+    background-color: #333;
+    color: white;
+    flex:1;
+
+}
+
+.who-content h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.who-content h3{
+    margin-bottom: 1rem;
+} 
+.who-content p{
+    margin-bottom: 1rem;   
+}
+
+
+/* LOGO */
+.client .container{
+    max-width: 2000px;
+    margin:auto;
+    padding: 2.5rem;
+}
+
+.client .container h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.logo-items{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.3rem;
+}
+
+.logo-items img{
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+
+/* CONTACT AND MAP */
+
+.contact-map{
+    display: flex;
+}
+
+.form-container{
+    /* border: 1px red solid; */
+    flex: 1;
+    background-color:#93cb52;
+    color: white;
+    padding: 2.5rem;
+}
+
+.form-container h1{
+    font-size: 3.3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.form-container p{
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+form{
+    padding: 1rem;
+}
+
+.form-container label{
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+.form-container input{
+    display: block;
+    width: 100%;
+    height: 3.5rem;
+    border: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.send-btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 3rem;
+    font-size: 1.3rem;
+    color:white;
+    background-color: #333;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.send-btn:hover{
+    background-color: #444;
+
+}
+.map-container{
+    /* border:1px black solid; */
+    flex: 1;
+}
+
+#mapid{
+    height: 100%;
+}
+
+footer{
+    padding: 3rem;
+    background-color: #333;
+   
+}
+
+footer p{
+    text-align: center;
+    font-weight: 900;
+    /* border:1px red solid; */
+    color: white;
+}
